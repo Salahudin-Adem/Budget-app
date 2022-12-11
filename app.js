@@ -53,7 +53,6 @@ edit=(e)=>{
     let parent=e.target.parentNode.parentNode
     let myspanofname=parent.firstElementChild
     let valuespan=e.target.parentNode.parentNode.querySelector('.myexpense')
-
     parent.remove()
     Expense_name.value=myspanofname.textContent
     Expense_amount.value=valuespan.textContent
