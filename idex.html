@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container1">
+            <h2>Budget App</h2>
+        <div class="budget">
+            <h3>Please Enterrrrr Your Budget</h3>
+            <input type="number" step="1" id="input"> <br>
+            <button class="calc">Calculate</button>
+        </div>
+        <div class="Message"></div>
+        <div class="expepense">
+            <h3>Please Enter your Expense</h3><br>
+
+            <input type="text" class="expensename" placeholder="Expense name"><br>
+            <h3>Please Enter your Expense Amount</h3><br>
+            <input type="number" step="1" class="expenseamount"><br>
+            <button class="addx">Add Expense</button>
+        </div>
+
+        </div>
+        <div class="container2">
+            <div class="c21">
+                <div class="amount">
+                    <h3>BUDGET</h3><br>
+                    <i class="fa-solid fa-money-bill-1-wave"></i>   <br>
+                <Label  id="bm">$<span class="bm">0</span></Label>
+                </div>
+                <div class="ex">
+                    <h3>EXPENCES</h3><br>
+                    <i class="fa-solid fa-wallet"></i> <br>
+                    <label for="" id="em" >$<span class="em">0</span></label>
+                         
+                </div>
+                <div class="bal">
+                    <h3>BALANCE</h3><br>
+                    <i class="fa-solid fa-dollar-sign"></i> <br>
+                    <label for="" id="balx">$<span class="balx">0</span></label>
+                </div>
+            </div>
+            <div class="c22">
+                <div class="tittle">
+                    <h3>Expense-Tittle</h3>
+                    <h3 class="a">Expense-Amount</h3>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+  <script src="app.js"></script>  
+</body>
+</html>

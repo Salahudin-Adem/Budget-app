@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&family=Poppins:wght@200;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Martian Mono', monospace;
+    background: rgb(217, 213, 213);
+}
+.container{
+    margin: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.container1{
+    /* border: 2px solid darkblue; */
+    margin: 2rem;
+
+}
+h2{
+    margin-bottom: 10px;
+}
+.budget{
+    /* display: grid; */
+    border: 2px solid green;
+    min-height: 130px;
+    border-radius: 5px;
+
+}
+#input{
+    height: 27px;
+    width: 450px;
+}
+.calc{
+margin-top: 10px;
+height: 29px;
+width: 200px;
+border: 1px solid green;
+border-radius: 3px;
+cursor: pointer;
+}
+.calc:hover{
+    border: none;
+    background: green;
+}
+h3{
+    padding-top: 10px;
+    padding-bottom: 4px;
+}
+.expepense{
+    border: 2.3px solid rgb(202, 42, 42);
+    margin-top: 22px;
+    min-height: 130px;
+    border-radius: 5px;
+
+
+}
+.expensename{
+    height: 27px;
+    width: 450px;
+}
+.expenseamount{
+    height: 27px;
+    width: 450px;
+}
+.addx{
+    margin-top: 10px;
+    margin-bottom: 10px;
+height: 29px;
+width: 200px;
+cursor: pointer;
+border: 1px solid red;
+border-radius: 3px;
+
+}
+.addx:hover{
+    background: rgb(215, 35, 35);
+    border: none;
+}
+.container2{
+    /* border: 2px solid darkviolet; */
+    /* margin: 2rem; */
+    margin-top: 76px;
+
+}
+.c21{
+    display: flex;
+    justify-content: space-between;
+
+}
+i{
+    font-size: 30px;
+    color: rgb(37, 104, 158);
+    text-align: center;
+    margin-left: 23px;
+    margin-bottom: 19px;
+}
+#bm{
+    margin-left: 19px;
+    color: green;
+    font-size: 30px;
+}
+#em{
+    font-size: 30px;
+    margin-left: 24px;
+    color: red;
+
+}
+#balx{
+    font-size: 30px;
+    margin-left: 19px;
+}
+
+.c22{
+    /* display: flex; */
+}
+.tittle{
+    margin-top: 20px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.a{
+    margin-left: 100px;
+}
+.expenselist{
+display: flex;
+justify-content: space-between;
+/* background: gray; */
+height: 20px;
+/* margin: 11px; */
+}
+.del{
+    font-size: 20px;
+    color: rgb(170, 44, 44);
+    cursor: pointer;
+}
+.edit{
+    font-size: 20px;
+}
+ .myexpensename{
+    color: rgba(255, 0, 0, 0.747);
+}
+.myexpense{
+    color: rgba(255, 0, 0, 0.747);
+
+}
+.one{
+}
+
+ 
